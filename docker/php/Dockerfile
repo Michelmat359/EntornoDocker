@@ -6,7 +6,7 @@ RUN apt-get -y update \
     && docker-php-ext-install intl \
     && docker-php-ext-install pdo_mysql && docker-php-ext-install intl
 
-RUN echo "memory_limit=512M" >> "/usr/local/etc/php/conf.d/extra.ini" s&& echo "max_execution_time=300" >> "/usr/local/etc/php/conf.d/extra.ini"
+RUN echo "memory_limit=512M" >> "/usr/local/etc/php/conf.d/extra.ini" && echo "max_execution_time=300" >> "/usr/local/etc/php/conf.d/extra.ini"
 
 RUN a2enmod rewrite
 
