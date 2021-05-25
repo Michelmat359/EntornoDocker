@@ -1,5 +1,3 @@
-# Léeme
-
 Plantilla de un stack php:7.2 + mysql + php-composer dockerizado.
 
 ## Contenido
